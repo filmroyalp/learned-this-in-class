@@ -1,0 +1,40 @@
+// javascript
+let msg = "“freedom";
+for (let td of document.querySelectorAll("td")){
+td.onclick = () => {
+if (td.innertext !== "name"){
+alert("freedom");
+} else {
+alert(msg);
+}
+};
+}
+//css 
+table{
+  border: 1px solid darkgreen;
+  
+}
+td{
+  text-align: center;
+  font-family: impact;
+  font-size: 20px;
+}
+td:hover{
+  cursor: pointer;
+  color: pink;
+}
+//html
+<table>
+<tbody>
+<tr>
+   <td>name</td>
+  <td>Nick</td>
+</tr>
+<tr>
+  <td>name</td>
+  <td>Todd</td>
+</tr>
+ 
+  
+</tbody>
+</table>
